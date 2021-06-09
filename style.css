@@ -1,0 +1,61 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/candyCrushBackground.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.score__board{
+    background-color: pink;
+    padding: 5px 40px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+}
+
+.score__board h2{
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgb(4, 85, 177);
+}
+
+.grid{
+    width: 560px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+}
+
+.grid div{
+    height: 70px;
+    width: 70px;
+}
+
+.footer{
+    margin-top: 35px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(207, 42, 70);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+}
+
+.footer p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.footer p a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
